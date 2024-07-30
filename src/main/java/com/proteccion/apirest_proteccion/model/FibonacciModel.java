@@ -13,6 +13,14 @@ public class FibonacciModel {
     private String SerieCalcula;
     private String MensajePersonalizado;
 
+    public FibonacciModel(String horaGeneracion, String serieCalcula, String mensajePersonalizado) {
+        HoraGeneracion = horaGeneracion;
+        SerieCalcula = serieCalcula;
+        MensajePersonalizado = mensajePersonalizado;
+    }
+
+    public FibonacciModel() {
+    }
 
     public Long getId() {
         return id;
