@@ -33,4 +33,15 @@ public class FibonacciController {
     public void deleteFibonacciModelById(@PathVariable("id") Long id){
         fibonacciService.deleteFibonacciModel(id);
     }
+
+    @GetMapping("/count/{numero}")
+    public long[] getFibonacciSeries(@PathVariable("numero") int count) {
+        if (count < 2) {
+            throw new IllegalArgumentException("El numero ingresado debe ser mayor o igual a 2");
+        }
+        return fibonacciService.calcularSerieFibonacci(count);
+    }
+
+
+
 }

@@ -31,5 +31,19 @@ public class FibonacciService {
         fibonacciRepository.deleteById(id);
     }
 
-    public
+    public long[] calcularSerieFibonacci(int count){
+        long[] fibonacciSeries = new long[count];
+        fibonacciSeries[0] = 0;
+        fibonacciSeries[1] = 1;
+
+        for (int i = 2; i < count; i++) {
+            fibonacciSeries[i] = fibonacciSeries[i - 1] + fibonacciSeries[i - 2];
+        }
+
+        return fibonacciSeries;
+    }
+
+    public void calcularSerieFibonacciWithMinutosAndSegundos(){
+
+    }
 }
