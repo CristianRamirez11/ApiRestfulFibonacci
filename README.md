@@ -19,9 +19,9 @@ deben producir 08 número así 241, 149, 92, 57, 35, 22, 13, 9, 4.
 ## Git:
 
 # Versiones Usadas
-Project: Maven Project
-Language: Java
-Spring Boot: 3.3.2
-Persistencia de datos en memoria con H2 Database
+- Project: Maven Project
+- Language: Java
+- Spring Boot: 3.3.2
+- Persistencia de datos en memoria con H2 Database
 
 # Se envia colección de postman para las peticiones Rest
