@@ -13,10 +13,10 @@ deben producir 08 número así 241, 149, 92, 57, 35, 22, 13, 9, 4.
 
 # Para configurar el proyecto Java con Spring Boot, necesitas tener instaladas las siguientes herramientas:
 
-## Java Development Kit (JDK)
-## Maven o Gradle
-## IDE (Entorno de Desarrollo Integrado) : IntelliJ IDEA o Visual Studio Code con las extensiones necesarias.
-## Git:
+- Java Development Kit (JDK)
+- Maven o Gradle
+- IDE (Entorno de Desarrollo Integrado) : IntelliJ IDEA o Visual Studio Code con las extensiones necesarias.
+- Git:
 
 # Versiones Usadas
 - Project: Maven Project
